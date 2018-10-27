@@ -3,7 +3,7 @@
 [image1]: ./images/sample_dog_output.png "Sample Output"
 [image2]: ./images/vgg16_model.png "VGG-16 Model Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
-
+[image4]: ./images_self/Architecture.png "Architecture"
 
 ## Project Overview
 
@@ -39,27 +39,16 @@ __NOTE:__ In the notebook, you will need to train CNNs in PyTorch.  If your CNN 
 
 
 
-## (Optionally) Accelerating the Training Process 
+My Submission: 
+My solution is presented in the file dog_app.ipynb.
+It consists of a CNN similar to that of VGG, but a little different in the architecture.
 
-If your code is taking too long to run, you will need to either reduce the complexity of your chosen CNN architecture or switch to running your code on a GPU.  If you'd like to use a GPU, you can spin up an instance of your own:
+The project was challenging owing to few aspects such as <br>
+1. Getting the accuracy and Figuring Out the Architecture.
+2. Getting the right dimesnions for the tensors.
 
-#### Amazon Web Services
-
-You can use Amazon Web Services to launch an EC2 GPU instance. (This costs money, but enrolled students should see a coupon code in their student `resources`.)
-
-## Evaluation
-
-Your project will be reviewed by a Udacity reviewer against the CNN project rubric.  Review this rubric thoroughly and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
+My solution consists of below architecture. Check out the Jupyter notebook for more details.
+![Architecture][image4]
 
 
-## Project Submission
 
-Your submission should consist of the github link to your repository.  Your repository should contain:
-- The `dog_app.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
-- An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
-
-Please do __NOT__ include any of the project data sets provided in the `dogImages/` or `lfw/` folders.
-
-### Ready to submit your project?
-
-Click on the "Submit Project" button in the classroom and follow the instructions to submit!
